@@ -1,5 +1,6 @@
 // Components
 import Header from './components/Header/Header';
+import Home from './components/Home/Home'
 // Styling
 import './App.css';
 
@@ -8,8 +9,7 @@ function App() {
     <div className="app">
 
       <Header />
-      {/* Home */}
-
+      <Home />
     </div>
   );
 }
