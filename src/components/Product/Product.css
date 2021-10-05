@@ -24,10 +24,17 @@
 .product .product__info {
   height: 100px;
   margin-bottom: 15px;
+  width: 100%;
 }
 
 .product .product__info .product__price {
   margin-top: 5px;
+}
+
+.product .product__info .product__rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .product img {
